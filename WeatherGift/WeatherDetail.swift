@@ -53,8 +53,6 @@ class WeatherDetail: WeatherLocation {
                 print("😡 ERROR: \(error.localizedDescription)")
             }
             
-            //note: there are some additional things that could go wrong when using URLSession. but we shouldn't experience them, so we'll ignore testing for these for now
-            
             //deal with the data
             do {
                 let result = try JSONDecoder().decode(Result.self, from: data!)

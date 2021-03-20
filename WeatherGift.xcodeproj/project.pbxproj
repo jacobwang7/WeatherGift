@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231D88C0260687F60092EA90 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231D88BF260687F60092EA90 /* WeatherDetail.swift */; };
 		232F889626042B0E00D43366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F889526042B0E00D43366 /* AppDelegate.swift */; };
 		232F889826042B0E00D43366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F889726042B0E00D43366 /* SceneDelegate.swift */; };
 		232F889A26042B0E00D43366 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F889926042B0E00D43366 /* LocationListViewController.swift */; };
@@ -16,6 +17,8 @@
 		232F88AD26042B0F00D43366 /* WeatherGiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F88AC26042B0F00D43366 /* WeatherGiftTests.swift */; };
 		232F88B826042B0F00D43366 /* WeatherGiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F88B726042B0F00D43366 /* WeatherGiftUITests.swift */; };
 		232F88C926042B2700D43366 /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F88C826042B2700D43366 /* WeatherLocation.swift */; };
+		238F0510260451EA00806E1D /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F050F260451EA00806E1D /* LocationDetailViewController.swift */; };
+		238F0515260562A400806E1D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F0514260562A400806E1D /* PageViewController.swift */; };
 		23BCCE78260434C3001E13B8 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCCE77260434C3001E13B8 /* APIkeys.swift */; };
 		3BE3342CBF007C2B7A5BB6FC /* libPods-WeatherGift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3DAC4D8620E1E39D94C64B /* libPods-WeatherGift.a */; };
 		9918C58BDBC661497D5BD3D7 /* libPods-WeatherGift-WeatherGiftUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A44617A5234F0BAECB1BBA /* libPods-WeatherGift-WeatherGiftUITests.a */; };
@@ -40,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231D88BF260687F60092EA90 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
 		232F889226042B0E00D43366 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		232F889526042B0E00D43366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		232F889726042B0E00D43366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		232F88B726042B0F00D43366 /* WeatherGiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGiftUITests.swift; sourceTree = "<group>"; };
 		232F88B926042B0F00D43366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		232F88C826042B2700D43366 /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
+		238F050F260451EA00806E1D /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		238F0514260562A400806E1D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		23BCCE77260434C3001E13B8 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
 		4A4766A70026773E4501DF95 /* Pods-WeatherGift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGift.release.xcconfig"; path = "Target Support Files/Pods-WeatherGift/Pods-WeatherGift.release.xcconfig"; sourceTree = "<group>"; };
 		59C6ED5B5B23B44D7D877F0A /* Pods-WeatherGift-WeatherGiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGift-WeatherGiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherGift-WeatherGiftUITests/Pods-WeatherGift-WeatherGiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +129,9 @@
 				232F889526042B0E00D43366 /* AppDelegate.swift */,
 				232F889726042B0E00D43366 /* SceneDelegate.swift */,
 				232F88C826042B2700D43366 /* WeatherLocation.swift */,
+				231D88BF260687F60092EA90 /* WeatherDetail.swift */,
+				238F0514260562A400806E1D /* PageViewController.swift */,
+				238F050F260451EA00806E1D /* LocationDetailViewController.swift */,
 				232F889926042B0E00D43366 /* LocationListViewController.swift */,
 				232F889B26042B0E00D43366 /* Main.storyboard */,
 				232F889E26042B0F00D43366 /* Assets.xcassets */,
@@ -413,9 +422,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				232F889A26042B0E00D43366 /* LocationListViewController.swift in Sources */,
+				231D88C0260687F60092EA90 /* WeatherDetail.swift in Sources */,
+				238F0515260562A400806E1D /* PageViewController.swift in Sources */,
 				232F88C926042B2700D43366 /* WeatherLocation.swift in Sources */,
 				23BCCE78260434C3001E13B8 /* APIkeys.swift in Sources */,
 				232F889626042B0E00D43366 /* AppDelegate.swift in Sources */,
+				238F0510260451EA00806E1D /* LocationDetailViewController.swift in Sources */,
 				232F889826042B0E00D43366 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +607,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8HWD5Y4SV3;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = WeatherGift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -615,11 +628,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8HWD5Y4SV3;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = WeatherGift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jake-Wang.WeatherGift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

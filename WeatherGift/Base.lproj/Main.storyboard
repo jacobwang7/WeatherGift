@@ -243,6 +243,11 @@
                             <constraint firstItem="7BU-bO-uu6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VNl-Bv-m2x"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addBarButton" destination="BtU-a4-2e0" id="tWm-6f-27b"/>
+                        <outlet property="editBarButton" destination="RAg-bP-nlc" id="HDv-xW-F5Y"/>
+                        <outlet property="tableView" destination="3dq-4s-RcM" id="bWR-5D-qs1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="TSF-pd-0p3" userLabel="Exit" sceneMemberID="exit"/>
